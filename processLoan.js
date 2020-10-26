@@ -1,4 +1,5 @@
 // ----- Eligible for loan -----
+
 const monthlyIncome = 1_200;
 let hasHighIncome = monthlyIncome >= 1_200;
 
@@ -9,5 +10,3 @@ let eligibleForLoan = hasHighIncome && hasHighCredit;
 let applicationStatus = eligibleForLoan ? 'accepted' : 'rejected';
 
 console.log(`The candidate's application has been "${applicationStatus}!"`);
-// The following program elaborates the use of logical operators
-// , as well as ternary operator...
