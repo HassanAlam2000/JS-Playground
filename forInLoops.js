@@ -1,5 +1,6 @@
 // For in loops in JS
-// These loops are mostly used to iterate over object.
+// The for in loops are mostly used to iterate over object.
+// Do not use a for in loop to iterate over arrays because there is a good solution for them.
 
 const person = {
     firstName: 'John',
